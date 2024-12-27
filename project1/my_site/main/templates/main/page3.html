@@ -1,0 +1,13 @@
+{% extends "main/layout.html" %}
+{% load static %}
+{% block content %}
+<div class="aios">
+    <h1>Водоворот (галактика)</h1>
+    <img src="{% static 'main/img/13.jpg' %}">
+    <p> M 51 (M51A, NGC 5194, PGC 47404, Галактика Водоворот) — спиральная галактика в созвездии Гончие Псы, открытая в 1773 году Шарлем Мессье; первая галактика, у которой была обнаружена спиральная структура. Входит в группу галактик M51.</p>
+</head>
+<body>
+    <button onclick="window.location.href='https://ru.wikipedia.org/wiki/Водоворот_(галактика)';">
+        Википедия
+    </button>
+    {% endblock %}
